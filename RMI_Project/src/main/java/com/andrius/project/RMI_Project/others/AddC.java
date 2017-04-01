@@ -9,7 +9,7 @@ import com.andrius.project.RMI_Project.interfaces.AddI;
 public class AddC extends UnicastRemoteObject implements AddI{
 	
 	// if you extend UnicastRemoteObject, you must have provide default constructor:
-	protected AddC() throws RemoteException {
+	public AddC() throws RemoteException {
 		super();
 	}
 
