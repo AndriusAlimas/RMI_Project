@@ -1,7 +1,7 @@
 package com.andrius.project.RMI_Project.others;
 
 import java.rmi.RemoteException;
-import java.rmi.server.UnicastRemoteObject;
+import java.rmi.server.*;
 
 import com.andrius.project.RMI_Project.interfaces.AddI;
 
